@@ -1,0 +1,153 @@
+:root {
+    --primary: #008080;
+    --wheat: wheat;
+    --gray: #808080;
+    --black: #000000;
+    --white: #ffffff;
+    --orange: #cc4d03;
+    --yellow: #e2d411f1;
+    --green: #15c90f;
+    --blue: #1153e2;
+    --red: #d80c0c;
+    --info: #2583ff;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Blinker', sans-serif;
+    font-size: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+
+.nav-heading {
+    margin: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul-li-a {
+    display: inline-block;
+    padding: 2rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.nav-ul-li-a:hover {
+    color: var(--black);
+}
+
+.hamburger-menu {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: none;
+    cursor: pointer;
+}
+
+.close-hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 5rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary);
+}
+
+.footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--wheat);
+}
+
+.footer .link {
+    color: var(--wheat);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: var(--primary);
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-ul {
+        height: 48vh;
+        position: fixed;
+        top: 0rem;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary);
+        transition: top 0.4s ease;
+        display: none;
+    }
+    .nav-heading {
+        padding: 0.5rem;
+    }
+    .close-hamburger-menu {
+        color: var(--white);
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 1.25rem;
+    }
+    .hamburger-menu {
+        color: var(--white);
+        display: block;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,41 @@
+.alert {
+    position: relative;
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+}
+
+.alert-close-btn {
+    background-color: transparent;
+    border: transparent;
+    outline: transparent;
+    color: var(--white);
+    line-height: 1.6rem;
+    margin-left: 1rem;
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.warning-alert {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.info-alert {
+    background-color: var(--info);
+    color: var(--white);
+}
+
+.success-alert {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.danger-alert {
+    background-color: var(--red);
+    color: var(--white);
+}

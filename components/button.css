@@ -1,0 +1,83 @@
+.button-allign {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.primary-button {
+    border: transparent;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.warning-button {
+    border: transparent;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.success-button {
+    border: transparent;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.delete-button {
+    border: transparent;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+
+/* link button */
+
+.link {
+    border: none;
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+/* outline buttons */
+
+.outline-primary-btn {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.outline-warning-btn {
+    border: 2px solid var(--red);
+    background-color: transparent;
+    color: var(--red);
+}
+
+.outline-success-btn {
+    border: 2px solid var(--green);
+    background-color: transparent;
+    color: var(--green);
+}
+
+.outline-delete-btn {
+    border: 2px solid var(--red);
+    background-color: transparent;
+    color: var(--red);
+}
+
+.icon-button {
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

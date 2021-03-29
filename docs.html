@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALAXY UI | DOCS</title>
+    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="components/styles.css">
+    <link rel="shortcut icon" href="/images/favicon-cl.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="hamburger-nav">
+            <h1>GALAXY UI <span class="sidebar-version-heading">v1.0</span></h1>
+            <div class="hamburger">
+                <a href="/index.html"><i class="fa fa-home fa-2x" style="color: var(--white);"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar">
+        <h2 class="sidebar-h2">GALAXY UI <span class="sidebar-version-heading">v1.0</span></h2>
+        <ul class="nav">
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a  home" href="/index.html">HOME</a><i href="/home.html" class="fa fa-home" style="font-size:36px; color: var(--white); "></i>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#install">Install</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#iavatar">Avatar</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#ialert">Alert</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#ibadge">Badge</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#ibutton">Button</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#icard">Card</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#iimages">Images</a>
+
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#ilist">List</a>
+            </li>
+            <li class="sidebar-ul-li">
+                <a class="sidebar-ul-li-a" href="#imodal">Modal</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="components-container">
+        <!-- INSTALL -->
+        <div class="comp" id="install">
+            <h1 class="comp-heading">Getting Started</h1>
+            <p class="comp-dis">To use
+                <span class="gs-heading"> Galaxy UI </span> paste below css file in head tag of your html.</p>
+        </div>
+        <div class="code-example-container ">
+            <div class="code-example ">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fgalaxy-ui.netlify.app%252Fcomponent.css%2522%253E"
+                    style="width: 680px; height: 93px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- AVATAR -->
+        <div class="comp" id="iavatar">
+            <h1 class="comp-heading">Avatar</h1>
+            <p class="comp-dis">In computing, an avatar is a graphical representation of a user or the user's character or persona. It may take either a two-dimensional form as an icon in Internet forums and other online communities or a three-dimensional form, as in games
+                or virtual worlds.</p>
+            <div class="img-avatar">
+                <img class="avatar avatar-sm" src="/images/avatar image.jpg" />
+                <img class="avatar avatar-md" src="/images/avatar image.jpg" />
+                <img class="avatar avatar-l" src="/images/avatar image.jpg" />
+                <img class="avatar avatar-xl" src="/images/avatar image.jpg" />
+            </div>
+            <h1 class="comp-heading">Avatar With Alphabet and Icons</h1>
+            <div class="img-avatar">
+                <img class="avatar avatar-sm" src="/images/avatar-sm-img.jpg" />
+                <img class="avatar avatar-md" src="/images/avatar-a.png" />
+                <img class="avatar avatar-l" src="/images/avatar-b.png" />
+                <img class="avatar avatar-xl" src="/images/avatar-img-anime.jpg" />
+            </div>
+        </div>
+        <!-- AVATAR CODE SNIPPET -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28245%2C222%2C179%2C1%29&t=night-owl&wt=none&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520src%253D%2522https%253A%252F%252Fsource%2520of%2520image%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520src%253D%2522https%253A%252F%252Fsource%2520of%2520image%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-l%2520%2520src%253D%2522https%253A%252F%252Fsource%2520of%2520image%2522%2520alt%253D%2522%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2520src%253D%2522https%253A%252F%252Fsource%2520of%2520image%2522%2520alt%253D%2522%2522%253E"
+                    style="width: 680px; height: 148px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- ALERT -->
+        <div class="comp" id="ialert">
+            <h1 class="comp-heading" id="ialert">Alert</h1>
+            <p class="comp-dis">An alert may be a calendar reminder or a notification of a new message. </p>
+            <div>
+                <div class="alert warning-alert"><a class="alert-close-btn">&times;</a>I am a Warning Alert !</div>
+                <div class="alert success-alert"><a class="alert-close-btn">&times;</a>I am a Success Alert !</div>
+                <div class="alert info-alert"><a class="alert-close-btn">&times;</a>I am an Info Alert !</div>
+                <div class="alert danger-alert"><a class="alert-close-btn">&times;</a>I am a Danger Alert !</div>
+            </div>
+        </div>
+        <!-- ALERT CODE SNIPPET -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28245%2C222%2C179%2C1%29&t=night-owl&wt=none&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%253Cspan%2520class%253D%2522alert-close-btn%2522%253E%2526times%253B%253C%252Fspan%253EI%2520am%2520a%2520Warning%2520Alert%2520%21%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%253Cspan%2520class%253D%2522alert-close-btn%2522%253E%2526times%253B%253C%252Fspan%253EI%2520am%2520a%2520Success%2520Alert%2520%21%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info-alert%2522%253E%250A%253Cspan%2520class%253D%2522alert-close-btn%2522%253E%2526times%253B%253C%252Fspan%253EI%2520am%2520an%2520Info%2520Alert%2520%21%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253E%250A%253Cspan%2520class%253D%2522alert-close-btn%2522%253E%2526times%253B%253C%252Fspan%253EI%2520am%2520a%2520Danger%2520Alert%2520%21%253E%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 350px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- BADGE -->
+        <div class="comp" id="ibadge">
+            <h1 class="comp-heading">Badge</h1>
+            <p class="comp-dis">Badges are often used to highlight an items status.</p>
+            <p class="comp-dis">Badge on Avatar</p>
+            <div class="badges">
+                <img class="avatar avatar-md" src="/images/avatar-img-anime.jpg" />
+                <span class="badge-user-active"></span>
+                <img class="avatar avatar-md" src="/images/avatar-img-anime.jpg" />
+                <span class="badge-user-offline"></span>
+                <div class="badge-div2">
+                    <span class="badge-allign badge-text badge-text-trending">Trending</span>
+                    <span class="badge-allign badge-text badge-text-green">Success</span>
+                    <span class="badge-allign badge-text badge-text-red">Deleted</span>
+                </div>
+            </div>
+        </div>
+        <!-- BADGE CODE SNIPPET -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=20px&dsblur=65px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=0&fm=Hack&fs=14px&lh=140%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522%252Favatar%252Fimage%2520path%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-user-active%2522%253E%253C%252Fspan%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522%252Favatar%252Fimage%2520path%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge-user-offline%2522%253E%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge-text%2520badge-text-trending%2522%253ETrending%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge-text%2520badge-text-green%2522%253ESuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge-text%2520badge-text-red%2522%253EDeleted%253C%252Fspan%253E%250A"
+                    style="width: 680px; height: 266px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- BUTTON -->
+        <div class="comp" id="ibutton">
+            <h1 class="comp-heading">Button</h1>
+            <p class="comp-dis">Different kind of buttons showcased</p>
+            <div>
+                <button class="button-allign buttons primary-button">Primary</button>
+                <button class="button-allign buttons warning-button">Warning</button>
+                <button class="button-allign buttons success-button">Success</button>
+                <button class="button-allign buttons delete-button">Delete</button>
+                <a href="#ibutton"><button class="link" >Link</button></a>
+            </div>
+            <h1 class="comp-heading">Outline Button</h1>
+            <div>
+                <button class="button-allign buttons outline-primary-btn">Primary</button>
+                <button class="button-allign buttons outline-warning-btn">Warning</button>
+                <button class="button-allign buttons outline-success-btn">Success</button>
+                <button class="button-allign buttons outline-delete-btn ">Delete</button>
+            </div>
+        </div>
+        <!-- BUTTON CODE SNIPPET -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28245%2C222%2C179%2C1%29&t=night-owl&wt=none&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522buttons%2520primary-button%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520warning-button%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520success-button%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520delete-button%2522%253EDelete%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522link.com%2522%253E%253Cbutton%2520class%253D%2522link%2522%2520%253ELink%253C%252Fbutton%253E%253C%252Fa%253E%250A%250A%253Cbutton%2520class%253D%2522buttons%2520outline-primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520outline-warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520outline-success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522buttons%2520outline-delete-btn%2520%2522%253EDelete%253C%252Fbutton%253E%250A%250A"
+                    style="width: 680px; height: 295px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="comp">
+            <h1 class="comp-heading">Icon Buttons</h1>
+            <p class="comp-dis">Icon buttons are very useful while designing applications.</p>
+            <div>
+                <button class="button-allign icon-button"><i class="fa fa-home"></i></button>
+                <button class="button-allign icon-button"><i class="fa fa-trash"></i></button>
+                <button class="button-allign icon-button"><i class="fa fa-shopping-cart"></i></button>
+                <button class="button-allign icon-button"><i class="fa fa-heart"></i></button>
+            </div>
+        </div>
+        <!-- CODE SNIPPETS FOR ICON BUTTONS -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=20px&dsblur=65px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=0&fm=Hack&fs=14px&lh=140%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-button%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A"
+                    style="width: 680px; height: 228px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="comp">
+            <p class="comp-dis">Icon buttons with text</p>
+            <div>
+                <button class="button-allign icon-button"><i class="fa fa-home"></i> HOME</button>
+                <button class="button-allign icon-button"><i class="fa fa-trash"></i> Delete</button>
+                <button class="button-allign icon-button"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                <button class="button-allign icon-button"><i class="fa fa-heart"></i> Add to wishlist</button>
+            </div>
+        </div>
+        <!-- CODE SNIPPETS FOR ICON BUTTONS WITH TEXT -->
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=20px&dsblur=65px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=0&fm=Hack&fs=14px&lh=140%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-button%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%2520HOME%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%2520Delete%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522icon-button%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520wishlist%250A%253C%252Fbutton%253E"
+                    style="width: 680px; height: 362px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- CARD-->
+        <div class="comp" id="icard">
+            <h1 class="comp-heading">Card</h1>
+            <p class="comp-dis">Different types of card we have are showcased below</p>
+            <div class="cards-container">
+                <div class="card">
+                    <span class="badge-on-card">Best Seller</span>
+                    <img class="card-product-image" src="/images/card-pic2.jpg">
+                    <div class="card-details">
+                        <p class="card-title">Product Name</p>
+                        <p class="card-dis">Product Description</p>
+                        <div class="card-pricing">
+                            <span>Rs 1999</span>
+                            <span class="discount-pricing">Rs 2999</span>
+                            <ion-icon class='card-like' name="heart" size='large'></ion-icon>
+                        </div>
+                    </div>
+                    <button class='card-button'><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+                <div class="card">
+                    <span class="badge-on-card">New</span>
+                    <img class="card-product-image" src="/images/card-img-3.jpg">
+                    <div class="card-details">
+                        <p class="card-title">Product Name</p>
+                        <p class="card-dis">Product Description</p>
+                        <div class="card-pricing">
+                            <span>Rs 1050</span>
+                            <span class="discount-pricing">Rs 1999</span>
+                            <ion-icon class='card-like' name="heart" size='large'></ion-icon>
+                        </div>
+                    </div>
+                    <button class='card-button'><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+                <div class="card">
+                    <img class="card-product-image" src="/images/card-pic1.jpg">
+                    <div class="card-details">
+                        <p class="card-title">Product Name</p>
+                        <p class="card-dis">Product Description</p>
+                        <div class="card-pricing">
+                            <span>Rs 350</span>
+                            <span class="discount-pricing">Rs 440</span>
+                            <a class="card-remove fa fa-close"></a>
+                        </div>
+                    </div>
+                    <button class='card-button'><i class="fa fa-shopping-bag"></i>  Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%253E%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-on-card%2522%253EBadge%2520Title%253C%252Fspan%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522card-product-image%2522%2520src%253D%2522%252Fsource%2520of%2520image%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EProduct%2520Name%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-dis%2522%253EProduct%2520Description%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERs%2520Discounted%2520Price%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-pricing%2522%253ERs%2520Original%2520Price%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520class%253D%27card-like%27%2520name%253D%2522heart%2522%2520size%253D%27large%27%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%27card-button%27%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 369px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%253E%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522card-product-image%2522%2520src%253D%2522%252Fsource%2520of%2520image%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EProduct%2520Name%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-dis%2522%253EProduct%2520Description%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERs%2520Discounted%2520Price%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount-pricing%2522%253ERs%2520Original%2520Price%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-remove%2520fa%2520fa-close%2522%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%27card-button%27%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 350px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- IMAGES -->
+        <div class="comp" id="iimages">
+            <h1 class="comp-heading">Images</h1>
+            <p class="comp-dis">For making images responsive</p>
+            <div class="img">
+                <img class="image-responsive" src="/images/image-res.jpg" />
+            </div>
+            <div class="img">
+                <img class="image-responsive-circular" src="/images/avatar-img-anime.jpg" />
+            </div>
+        </div>
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522image-responsive%2522%2520src%253D%2522source%2520of%2520img%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522image-responsive-circular%2522%2520src%253D%2522source%2520of%2520img%2522%2520%252F%253E"
+                    style="width: 680px; height: 111px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!--LISTS -->
+        <div class="comp" id="ilist">
+            <h1 class="comp-heading">Stacked List</h1>
+            <div>
+                <ul class="list">
+                    <li class="list-item">This is list item 1</li>
+                    <li class="list-item">This is list item 2</li>
+                    <li class="list-item">This is list item 3</li>
+                    <li class="list-item">This is list item 4</li>
+                </ul>
+            </div>
+            <h1 class="comp-heading">Spaced List</h1>
+            <div>
+                <ul class="list">
+                    <li class="spaced-list-item list-item">This is list item 1</li>
+                    <li class="spaced-list-item list-item">This is list item 2</li>
+                    <li class="spaced-list-item list-item">This is list item 3</li>
+                    <li class="spaced-list-item list-item">This is list item 4</li>
+                </ul>
+            </div>
+        </div>
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520list%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520list%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520list%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520list%2520item%25204%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced-list-item%2520list-item%2522%253EThis%2520is%2520list%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced-list-item%2520list-item%2522%253EThis%2520is%2520list%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced-list-item%2520list-item%2522%253EThis%2520is%2520list%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522spaced-list-item%2520list-item%2522%253EThis%2520is%2520list%2520item%25204%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 387px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <!-- MODAL -->
+        <div class="comp" id="imodal">
+            <h1 class="comp-heading">Modal</h1>
+            <p class="comp-dis">A modal is a dialog box/popup window that is displayed to ensure do you really want to perform a particular action.</p>
+            <button class="buttons primary-button show-modal" id="show-modal">Modal</button>
+            <div id="modal" class="modal">
+                <div class="modal-title">
+                    <p>Are you sure about this?</p>
+                    <div id="modal-close-btn" class="modal-close-btn">
+                        <i class="fa fa-close"></i>
+                    </div>
+                </div>
+                <p class="modal-dis">It will be permanently deleted! </p>
+                <div class="modal-footer">
+                    <button class="modal-delete-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="code-example-container">
+            <div class="code-example">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=css&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522buttons%2520primary-button%2520show-modal%2522%2520id%253D%2522show-modal%2522%253EModal%250A%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-title%2522%253E%250A%2520%2520%2520%2509%2509%253Cp%253EAre%2520you%2520sure%2520about%2520this%253F%253C%252Fp%253E%250A%2520%2520%2520%2509%2509%253Cdiv%2520id%253D%2522modal-close-btn%2522%2520class%253D%2522modal-close-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522modal-dis%2522%253EIt%2520will%2520be%2520permanently%2520deleted%21%2520%253C%252Fp%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-delete-btn%2522%253EDelete%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 680px; height: 332px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>

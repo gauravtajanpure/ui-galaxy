@@ -1,0 +1,19 @@
+.list-item {
+    width: 100%;
+    max-width: 50rem;
+    padding: 1rem;
+    border: 1px solid black;
+    list-style: none;
+}
+
+.list-text {
+    margin-left: 0.5rem;
+}
+
+.list {
+    padding: 1rem;
+}
+
+.spaced-list-item {
+    margin-bottom: 1rem;
+}
