@@ -1,6 +1,5 @@
 .cards-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -35,7 +34,7 @@
     margin-bottom: 0.5rem;
 }
 
-.card-dis {
+.card-description {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -53,8 +52,8 @@
 .card-like {
     color: var(--white);
     position: absolute;
-    top: 0rem;
-    right: 0rem;
+    top: 0;
+    right: 0;
     padding: 0.5rem;
     width: 1.7rem;
     height: 1.7rem;
