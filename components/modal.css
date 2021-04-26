@@ -1,0 +1,46 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 15rem;
+    left: 20rem;
+    right: 20rem;
+    z-index: 5;
+    background-color: var(--light-green);
+    color: var(--primary);
+}
+
+.show-modal {
+    margin-left: 1rem;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 1px solid var(--black);
+}
+
+.modal-close-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-dis {
+    padding: 1rem;
+}
+
+.modal-footer {
+    text-align: right;
+    padding: 1rem;
+}
+
+.modal-delete-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: transparent;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--primary);
+}
